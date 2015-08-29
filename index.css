@@ -31,10 +31,11 @@ p.banner-text{
   line-height: 70px;
 }
 
-#job1, #job2{
+.job{
 	width:5%;
 	font-size: 1.5em;
 }
+
 
 #description1, #description2{
 	display:hidden;
@@ -43,5 +44,9 @@ p.banner-text{
 
 
 @media screen and (max-width: 500px){
-  
+
+}
+
+.description{
+	display:none;
 }
