@@ -36,18 +36,6 @@ p.banner-text{
 	width:5%;
 	font-size: 1.5em;
 }
-
-
-#description1, #description2{
-	display:hidden;
-}
-
-
-
-@media screen and (max-width: 500px){
-
-}
-
 .description{
 	display:none;
 	padding:2%;
@@ -71,4 +59,19 @@ section{
 	font-size: 2em;
 	margin:0;
 	width:20%;
+}
+
+@media screen and (max-width: 815px){
+  .banner{
+    height: 450px;
+    padding-top: 2em;
+  }
+  h1.banner-heading{
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  p.banner-text{
+    font-size: 2em;
+    line-height: 1.5em;
+  }
 }
