@@ -21,4 +21,11 @@ body{
   text-transform: uppercase;
 }
 
+#job1, #job2{
+	width:5%;
+	font-size: 1.5em;
+}
 
+#description1, #description2{
+	display:hidden;
+}
