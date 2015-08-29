@@ -1,6 +1,8 @@
-$("#job1").on("click", function(){
+$("section").on("click", function(event){
 	console.log("event fired");
-	$("#description1").slideToggle("slow", function(){
-		$("#description1").show();
+	console.log((event.target).closest('p'));
+	$(".description").slideToggle("slow", function(){
+		$(event.target).closest('section').css("display: inline");
 	})
 })
+
