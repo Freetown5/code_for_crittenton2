@@ -36,7 +36,10 @@ p.banner-text{
 	display:none;
 	padding:2%;
 	font-size: 1.5em;
+  width:80%;
+  margin-left:10%;
 }
+
 
 .job{
 	padding-left:2%;
