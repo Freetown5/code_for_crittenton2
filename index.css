@@ -45,6 +45,7 @@ p.banner-text{
 .job{
 	padding-left:2%;
 	font-size: 2em;
+  line-height: 1.5em;
 	text-transform:uppercase;
 	margin:0;
 	width: 20%;
@@ -73,5 +74,26 @@ section{
   p.banner-text{
     font-size: 2em;
     line-height: 1.5em;
+  }
+  .job{
+    line-height: 3em;
+    font-size: 1.5em;
+  }
+  .salary{
+    line-height: 3em;
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 523px){
+  .job{
+    line-height: 2.5em;
+    font-size: 1.1em;
+  }
+  .salary{
+    line-height: 2.5em;
+    font-size: 1.1em;
+  }
+  .description{
+    font-size: 1em;
   }
 }
