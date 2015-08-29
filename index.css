@@ -86,11 +86,11 @@ section{
 }
 @media screen and (max-width: 523px){
   .job{
-    line-height: 2.5em;
+    line-height: 5em;
     font-size: 1.1em;
   }
   .salary{
-    line-height: 2.5em;
+    line-height: 5em;
     font-size: 1.1em;
   }
   .description{
