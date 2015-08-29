@@ -6,6 +6,7 @@
 body{
   color: white;
   background-color: darkgrey;
+  font-family: 'Neuton', serif;
 }
 .banner{
   height: 635px;
@@ -49,4 +50,25 @@ p.banner-text{
 
 .description{
 	display:none;
+	padding:2%;
+	font-size: 1.5em;
+}
+
+.job{
+	padding-left:2%;
+	font-size: 2em;
+	text-transform:uppercase;
+	margin:0;
+	width: 20%;
+}
+
+section{
+	border-bottom:2px solid white;
+}
+
+.salary{
+	float:right;
+	font-size: 2em;
+	margin:0;
+	width:20%;
 }
