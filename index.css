@@ -36,6 +36,17 @@ p.banner-text{
 	font-size: 1.5em;
 }
 
+
+#description1, #description2{
+	display:hidden;
+}
+
+
+
+@media screen and (max-width: 500px){
+
+}
+
 .description{
 	display:none;
 }
